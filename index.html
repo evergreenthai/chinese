@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description"
-  content="为加国华人提供最优计划套餐，网络套餐等">
+  content="为加国华人提供最优计划套餐，网络套餐, 智能家居安防和监控等">
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap" rel="stylesheet" />
 
@@ -1116,7 +1116,7 @@
       <div class="footer__top">        
         <div class="footer-top__box">
         <h3>INFORMATION</h3>
-        <a href="#">About Us</a>
+        <a href="#contact">About Us</a>
         <a href="#">Privacy Policy</a>
         <a href="#">Terms & Conditions</a>
        
@@ -1156,7 +1156,7 @@
                 <use xlink:href="./images/sprite.svg#icon-envelop"></use>
               </svg>
             </span>
-            company@gmail.com
+            plandiscountservice@gmail.com
           </div>
           <div>
             <span>
@@ -1229,3 +1229,34 @@
 </body>
 
 </html>
+
+<!-- Messenger Chat Plugin Code -->
+<div id="fb-root"></div>
+
+<!-- Your Chat Plugin code -->
+<div id="fb-customer-chat" class="fb-customerchat">
+</div>
+
+<script>
+  var chatbox = document.getElementById('fb-customer-chat');
+  chatbox.setAttribute("page_id", "109984358181719");
+  chatbox.setAttribute("attribution", "biz_inbox");
+</script>
+
+<!-- Your SDK code -->
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v12.0'
+    });
+  };
+
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/zh_CN/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
