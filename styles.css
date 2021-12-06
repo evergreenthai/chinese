@@ -2478,7 +2478,7 @@ email inquiry
     }
 
     .bee-row-1 {
-        background-color: #7ca439;
+        background-color: #fff;
         background-repeat: no-repeat
     }
 
@@ -2529,11 +2529,11 @@ email inquiry
     }
 
     .bee-row-1 .bee-col-2 .bee-block-1 li a {
-        color: #ffffff
+        color: #222
     }
 
     .bee-row-1 .bee-col-2 .bee-block-1 {
-        color: #8e1739;
+        color: #ccc;
         font-family: inherit;
         font-size: 16px;
         padding-left: 60px;
@@ -2837,7 +2837,7 @@ email inquiry
         .bee-row-1 .bee-col-2 .bee-block-1 .bee-hamburger-controls {
             width: 36px;
             height: 36px;
-            background-color: #8e1739
+            background-color: #222
         }
 
         .bee-row-1 .bee-col-2 .bee-block-1 .bee-hamburger-controls span {
@@ -2856,7 +2856,7 @@ email inquiry
         }
 
         .bee-row-1 .bee-col-2 .bee-block-1 ul.with-bee-hamburger {
-            background-color: #8e1739
+            background-color: #ccc
         }
 
         .bee-row-1 .bee-col-2 .bee-block-1 ul.with-bee-hamburger li {
@@ -2896,6 +2896,8 @@ email inquiry
             text-decoration: none
         }
     }
+
+
 
 /*
 ======================
