@@ -153,8 +153,8 @@
                 <div class="hero__left">
                   <p style="font-size: 10px; line-height: 10px; text-align: center;">
                     <span style="font-size: 50px; line-height: 20px;">
-                            <span style="line-height: 50px;">
-                              原$50 现$35
+                            <span style="line-height: 50px; color: rgb(0, 0, 102)"><b>
+                              原$50 现$35</b>
                             </span>
                     </span>
                  </p>
@@ -182,9 +182,9 @@
                 <div class="hero__left">
                   <p style="font-size: 10px; line-height: 65px; text-align: center;">
                     <span style="font-size: 50px; line-height: 31px;">
-                            <span style="line-height: 50px;">
+                            <span style="line-height: 50px;color: rgb(238,44, 116)"><b>
                               原$50 现$40
-                            </span>
+                            </b></span>
                     </span>
                  </p>
                   <span><h1>Koodo最新优惠计划</h1></span>
@@ -1386,34 +1386,33 @@
 </html>
 
 
-
 <!-- Messenger Chat Plugin Code -->
-    <div id="fb-root"></div>
+<div id="fb-root"></div>
 
-    <!-- Your Chat Plugin code -->
-    <div id="fb-customer-chat" class="fb-customerchat">
-    </div>
+<!-- Your Chat Plugin code -->
+<div id="fb-customer-chat" class="fb-customerchat">
+</div>
 
-    <script>
-      var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "100588102484439");
-      chatbox.setAttribute("attribution", "biz_inbox");
-    </script>
+<script>
+  var chatbox = document.getElementById('fb-customer-chat');
+  chatbox.setAttribute("page_id", "100588102484439");
+  chatbox.setAttribute("attribution", "biz_inbox");
+</script>
 
-    <!-- Your SDK code -->
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v12.0'
-        });
-      };
+<!-- Your SDK code -->
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v12.0'
+    });
+  };
 
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/zh_CN/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-    </script>
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/zh_CN/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
