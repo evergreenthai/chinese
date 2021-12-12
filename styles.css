@@ -1423,7 +1423,7 @@ Testimonial
 .testimonial {
   position: relative;
   background: url("./images/testimonial.jpg") center/cover no-repeat;
-  height: 50rem;
+  height: 65rem;
   padding: 5rem 0;
   z-index: 1;
   text-align: center;
